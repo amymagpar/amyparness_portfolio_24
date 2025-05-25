@@ -57,7 +57,7 @@
   a {
     @apply italic underline decoration-2 hover:decoration-1 decoration-dotted  hover:decoration-solid visited:decoration-dashed hover:decoration-zinc-600  text-zinc-600 hover:text-zinc-900;
   }
-  p {
+  p, ul, ol {
     @apply !text-balance  mb-3 max-w-prose;
     /* @apply text-pretty leading-tight tracking-tight mb-4; */
   }
